@@ -1,16 +1,11 @@
-export const App = () => {
+import {Profile} from "../components/Profile/Profile";
+import {Statistics} from "../components/Statistics/Statistics";
+
+export function App() {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+    <>
+<Profile />
+<Statistics />
+</>
+  )
 }
