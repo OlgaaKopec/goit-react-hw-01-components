@@ -1,0 +1,26 @@
+.transaction-history {
+        background-color: orange;
+        width: 300px;
+        height: auto;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .transArray {
+        background-color: black;
+        flex-direction: column;
+        display: flex;
+        align-items:center;
+        gap:10px;
+    }
+
+    .amountTransactionItem {
+       text-decoration: double;
+       color:aliceblue;
+    }
+
+    .oneTransactionItem {
+        color:aliceblue;  
+    }
