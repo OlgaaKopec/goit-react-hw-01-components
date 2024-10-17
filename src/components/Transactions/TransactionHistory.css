@@ -1,26 +1,62 @@
-.transaction-history {
-        background-color: orange;
-        width: 300px;
-        height: auto;
-        display:flex;
+     .transaction-history {
+        background-color: whitesmoke;
+        width: 100%;
+        max-width: 310px;
+        padding: 20px;
+        display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
+        margin: 20px;
+        border-radius: 10px;
+        border: 2px solid rgb(29, 101, 93);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-
-    .transArray {
-        background-color: black;
-        flex-direction: column;
-        display: flex;
-        align-items:center;
-        gap:10px;
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: left;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     }
-
+    
+    thead {
+        background-color: rgb(29, 101, 93);
+        color: #fff;
+        width: 100%;
+    }
+    
+    th, td {
+        padding: 12px;
+    }
+    
+    th {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    
     .amountTransactionItem {
-       text-decoration: double;
-       color:aliceblue;
+        text-decoration: underline;
+        color: #183b42;
+        font-size: 16px; 
+        font-weight: 600;
     }
-
+    
     .oneTransactionItem {
-        color:aliceblue;  
+        color: #183b42;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
     }
+    
+    tbody tr:hover {
+        background-color: rgba(29, 101, 93, 0.1);
+        max-width: fit-content;
+    }
+    

@@ -19,7 +19,7 @@ return (
   <p className="name">{username}</p>
   <p className="tag">@{tag}</p>
   <p className="location">{location}</p>
-</div>
+
 
 <ul className="stats">
   <li>
@@ -35,6 +35,7 @@ return (
     <span className="quantity">{formatNumber(stats.likes)}</span>
   </li>
 </ul>
+</div>
 </div>
 )}
 

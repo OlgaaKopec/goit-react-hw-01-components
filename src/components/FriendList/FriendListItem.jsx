@@ -5,11 +5,13 @@ export const FriendListItem = ({friend})=> {
 const {avatar, name, isOnline} =  friend
 
 return (
-<li className="itemList">
-  <span className={`status ${isOnline ? "isOnline" : "offline"}`}>
-        {isOnline ? '' : ''}</span>
+<li className="friendListItem">
   <img className="avatar" src={avatar} alt="User avatar" width="48" />
-  <p className="name">{name}</p>
+  <div className="friendInfo">
+  <span className={`status ${isOnline ? "isOnline" : "offline"}`}>
+  {isOnline ? '' : ''}</span>
+  <p className="friendName">{name}</p>
+  </div>
 </li>
 )}
 
