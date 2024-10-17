@@ -6,7 +6,7 @@ export const Statistics =  ({ data = {} }) => {
 
 return (
 <section className="statistics">
-{/* {title && <h2 className="title">{title}</h2>} */}
+{title && <h2 className="title">{title}</h2>}
 <h2 className="title">STATS FOR HW</h2>
 <th className="statList">
     {stats.map ((stat) => (
